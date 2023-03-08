@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Raleway');
+
+* {
+   box-sizing: border-box;
+   margin:0;
+   padding:0;
+}
+li{list-style-type:none;
+}
+
+body {
+   background: #fafafa;
+   font-size:15px;
+   margin:px;
+   font-family: 'Raleway', sans-serif;
+
+
+}
+
+@media screen and (max-width:600px) {
+    .contact {
+        margin: auto;
+        width:96% ;
+        padding: 12px;
+        text-align: center;
+        box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.16), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+        height: auto;
+        background: white;
+    }
+    .contact strong {
+        text-align:
+    }
+
+       .aboutdr{
+         width:90%;
+         margin:0 auto;
+       }
+    .menu-desktop{
+      display: none;
+    }
+    .mob-menu{
+      display: block;
+    }
+    .cont {
+      background-color: #111;
+        display: inline-block;
+        cursor: pointer;
+        float: right;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        margin: 5px 0;
+        color: ;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-38deg) translate(-4px, 6px);
+        transform: rotate(-38deg) translate(-4px, 6px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(38deg) translate(-4px, -8px);
+        transform: rotate(38deg) translate(-4px, -8px);
+    }
+    #menu,
+    #tog {
+        padding: 15px;
+        text-align: left;
+        background-color: #111;
+        border: none;
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, .05);
+        width:96% ;
+        color: #fff;
+    }
+    #menu {
+      color: #fff;
+      background-color: #3ca7b4;
+        padding: 1px;
+        display: none;
+    }
+    a li {
+        list-style-type: none;
+        text-align: left;
+        Color: #fff;
+        background-color: #3ca7b4;
+        padding: 15px;
+        left: 0;
+        text-decoration: none;
+        transition: background-color 0.2s ease-in;
+    }
+    ul a {
+        text-align: left;
+        background-color: ;
+        color: whie;
+        text-decoration: none;
+    }
+    a li:hover {
+        background-color: #399fac;
+        color: #fff;
+    }
+    #menu a {
+        text-decoration: none;
+        color: black;
+    }
+    #tog a {
+        color: black;
+        text-decoration: none;
+    }
+    .mymenu {
+        width: 100%;
+        margin: auto;
+    }
+    .clinic {
+        text-align: center;
+        font-size: 24px;
+        background: none;
+
+        padding-top: 6px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 15px;
+        font-family: 'Droid Serif', serif;
+    }
+    .clinic img {
+        width: 48px;
+        height: 70px;
+        padding-bottom: 5px;
+        display: inline;
+        float: left;
+    }
+    .locate{background-color:navy;
+    padding:5px;
+    color:white;
+    border-radius:3px;
+    font-size:28px;
+    margin:2px;
+    }
+
+    .loc{
+    margin:10px;
+    border:2px solid none;
+    background:##808080;
+    border-radius:2px;
+    font-size:20px;
+    }
+    .location{
+    padding:10px 10px;
+    width:96%;
+    margin:auto;
+    text-align:justify;
+    }
+
+    .special{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 190px;
+    overflow: auto;
+    border: 1px solid lightblue;
+    border-radius:12px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 225, 0.2), 0 6px 20px 0 rgba(0, 0, 225, 0.19);
+    box-sizing: border-box;
+    }
+    .divhead{
+
+    color:white;
+    padding:8px;
+    font-weight: bold;
+    background-color: #0fa3bc;
+    box-sizing: border-box;
+    background-size: cover;
+    }
+
+
+   }
+   @media screen and (min-width:600px) {
+   .clinic {
+   font-size: 40px;
+   text-align: ;
+   padding-top: 8px;
+   padding-left: 2px;
+   padding-right: 2px;
+   padding-bottom: 15px;
+   font-family: 'Nunito', sans-serif;
+   }
+   .special{
+       margin: auto;
+       margin-bottom: 10px;
+       width: 90%;
+       margin: 9px;
+       height: 320px;
+       padding: 15px;
+       border: 1px solid lightblue;
+       border-radius:12px;
+       background-color: #fff;
+       box-shadow: 0 2px 4px 0 rgba(0, 0, 225, 0.2), 0 6px 20px 0 rgba(0, 0, 225, 0.19);
+       box-sizing: border-box;
+       }
+       .divhead{
+
+       color:white;
+       padding:8px;
+       font-weight: bold;
+       background-color: #0fa3bc;
+       box-sizing: border-box;
+       background-size: cover;
+       }
+
+
+   .menu-desktop{
+     display: block;
+   }
+   .mob-menu{
+     display: none;
+   }
+   .clinic img {
+   width: 68px;
+   height: 78px;
+   padding-bottom: 15px;
+   padding-left: 6px;
+   display: inline;
+   float: left;
+   }
+
+   .h3{
+     font-size: 20px;
+     font-weight: bold;
+
+     text-align: center;
+     padding: 12px;
+   }
+   .menu-desktop{
+     display: block;
+   }
+   .mob-menu{
+     display: none;
+   }
+   .menu-desktop table{
+
+     border-collapse: collapse;
+     background: #3ca7b4;
+
+   }
+   .menu-desktop td{
+     padding: 8px;
+     text-align: center;
+   }
+   .menu-desktop td i
+   { color: #fff;
+     font-size: 25px;
+     font-weight: bold;
+   }
+
+   .menu-desktop td a{
+     padding: 0px;
+     text-decoration: none;
+     color:#fff;}
+   .locate{
+   background-color:navy;
+   padding:5px;
+   color:white;
+   border-radius:3px;
+   font-size:28px;
+   margin:2px;
+   }
+
+   .loc{
+   margin:10px;
+   border:2px solid none;
+   background:##808080;
+   border-radius:2px;
+   font-size:20px;
+   }
+   .location{
+   padding:10px;
+   width:80%;
+   margin:auto;
+   text-align:justify;
+   }
+   {
+   width:80%;
+   margin:auto;
+   }
+   .divhead{
+   color:white;
+   padding:8px;
+   font-weight: bold;
+   background-color: #0fa3bc;
+   box-sizing: border-box;
+   background-size: cover;
+   }
+   .div-center{
+  width:85%;
+  margin:0 auto;
+  }
+  .aboutdr{
+    width: 50%;
+    margin:0 auto;
+  }
+  }
+   /*global application of styles*/
+  .chooseus {
+  margin: auto;
+  padding: 3px;
+  font-size: 28px;
+  border-left: 4px solid #4caf50;
+  }
+  .chooseus p {
+  border-bottom: 2px solid #04a6d;
+  padding-bottom: 2px;
+  text-align: center;
+  }
+
+  .getnav{
+  padding:10px;
+  font-size:14px;
+  background-color: #4885ed;
+  text-decoration:none;
+  color:white;
+
+  }
+  .follow {
+  text-align: center;
+  font-size: 25px;
+  }
+  .followitem {
+  text-align: center;
+  }
+  .followitem a{
+  border:3px solid #fff;
+  padding:px;
+  background:#fff;
+  margin:5px;
+  border-radius:50%;
+  }
+  .fb {
+  font-size:18px;
+  color: #2c477e;
+  padding:8px;
+  }
+  .gp {
+  font-size: 18px;
+  color: #b64836;
+  padding: 8px;
+
+  }
+  .tweet {
+  font-size: 18px;
+  color: #1dcaff;
+  padding: 8px;
+
+  }
+  .whatsapp {
+  font-size: 18px;
+  color: #4caf50;
+  padding: 8px;
+  }
+  .copyrights {
+  text-align: center;
+  font-size: 12px;
+  }
+
+  .copyrights a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  ;
+  }
+  #copyrights {
+  text-align: center;
+  }
+  #copyrights a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  }
+  .footer-down{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  background:#333;
+  color:#fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .aboutdr img{
+  display: block;
+  margin: 0 auto;
+  width:100%;
+  height: auto;
+  box-sizing: border-box;
+
+  }

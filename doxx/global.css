@@ -1,0 +1,166 @@
+.error {
+  color: red;
+}
+.appointment_booking input[type=text],textarea,input[type=date]{
+  width: 80%;
+  padding:8px;
+  border: 1px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-sizing: border-box;
+  margin-top:15px;
+}
+.book_it_now i{
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding:5px;
+  background:#f7f7f7;
+  border:1px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+  box-sizing: border-box;
+
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.appointment_booking{
+
+    display: block;
+    margin: 0 auto;
+    width:50%;
+    height: auto;
+
+    background:#f2f2f2;
+    box-sizing: border-box;
+
+
+}
+.appointment_booking input[type=submit]{
+display: block;
+margin: 0 auto;
+width: 45%;
+color: #fff;
+border:none;
+padding:5px;
+
+background:#4caf50;
+transition: background 0.3s ease;
+}
+.appointment_booking input[type=submit]:hover{
+display: block;
+margin: 0 auto;
+width: 45%;
+color: #fff;
+border:none;
+padding:10px;
+background: steelblue;
+transition: background 0.3s ease;
+box-shadow: 2px 3px 4px;
+}
+.appointment_booking textarea{
+width:90%;
+margin-left: 20px;
+}
+h2{
+text-align: center;
+text-transform: capitalize;
+}
+.book_it_now{
+display: block;
+margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+.appointment_booking{
+
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    height: auto;
+
+    background:#f2f2f2;
+    box-sizing: border-box;
+
+
+}
+.appointment_booking input[type=text],textarea,input[type=date]{
+  width: 80%;
+  padding:8px;
+  border: 1px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-sizing: border-box;
+  margin-top:15px;
+}
+.book_it_now i{
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding:5px;
+  background:#fafafa;
+  border:1px solid #e4e4e4;
+  border-bottom: 2px solid #e4e4e4;
+  box-sizing: border-box;
+
+  margin-left: 5px;
+  margin-right: 0;
+  margin-top: 15px;
+}
+}
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
